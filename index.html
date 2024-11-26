@@ -6,9 +6,10 @@
     <title>Audiophile Maket</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <header class="site-header" id="header">
-      <a class="site-header__logo" href="index.html">
+    <header class="header" id="header">
+      <a class="header__logo" href="index.html">
         <img
           src="images/logo.svg"
           alt="Audiophile logo"
@@ -16,77 +17,77 @@
           height="25"
         />
       </a>
-      <nav class="site-header__navigation">
-        <ul class="site-header__menu">
-          <li class="site-header__item">
-            <a class="site-header__link" href="#">Home</a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">Home</a>
           </li>
-          <li class="site-header__item">
-            <a class="site-header__link" href="#">Headphones</a>
+          <li class="header__item">
+            <a class="header__link" href="#">Headphones</a>
           </li>
-          <li class="site-header__item">
-            <a class="site-header__link" href="#">Speakers</a>
+          <li class="header__item">
+            <a class="header__link" href="#">Speakers</a>
           </li>
-          <li class="site-header__item">
-            <a class="site-header__link" href="#">Earphones</a>
+          <li class="header__item">
+            <a class="header__link" href="#">Earphones</a>
           </li>
         </ul>
       </nav>
-      <a class="site-header__cart" href="#">
+      <a class="header__shopping" href="#">
         <img
           width="24"
           height="20"
           src="./images/cart.svg"
-          alt="Shopping cart icon"
-        />
-      </a>
+          alt="Shopping icons"
+      /></a>
     </header>
 
-    <main class="project-items">
-      <section class="aksesuvar">
-        <a href="#" class="aksesuvar-title">Go Back</a>
-        <div class="aksesuvar-description">
-          <div class="aksesuvar-photo_items">
-            <img src="images/navushnik.png" alt="XX99 Mark I Headphones" />
-          </div>
-          <div class="aksesuvar-details">
-            <h2>XX99 MARK I HEADPHONES</h2>
-            <p>
-              The XX99 Mark I is a revolutionary headphone that combines the
-              best of two worlds. It's a versatile, comfortable, and stylish
-              headphone with a smooth, rich sound that's perfect for listening
-              to music, podcasts, and other audio.
-            </p>
-            <p class="narxi">$1,750</p>
-            <div class="card-items">
-              <input type="number" value="1" min="1" />
-              <button class="button-project">Add to Cart</button>
+    <main class="container">
+      <div>
+        <div class="product">
+          <a href="#" class="back-button">Go Back</a>
+          <div class="product-details">
+            <div class="product-image">
+              <img src="images/navushni.png" alt="XX99 Mark I Headphones" />
+            </div>
+            <div class="product-info">
+              <h2>XX99 MARK I HEADPHONES</h2>
+              <p>
+                As the gold standard for headphones, the classic XX99 Mark I
+                offers detailed and accurate audio reproduction for audiophiles,
+                mixing engineers, and music aficionados alike in studios and on
+                the go.
+              </p>
+              <p class="price">$1,750</p>
+              <div class="cart-actions">
+                <input type="number" value="1" min="1" />
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="xususiyatlar-items">
-        <div class="xususiyatlar">
-          <h2>Features</h2>
-          <p>
-            Featuring a genuine leather head strap and premium earcups, these
-            headphones deliver superior comfort for those who like to enjoy
-            endless listening. It includes intuitive controls designed for any
-            situation. Whether you're taking a business call or just in your own
-            personal space, the auto on/off and pause features ensure that
-            you'll never miss a beat.
-          </p>
-          <p>
-            The advanced Active Noise Cancellation with a built-in equalizer
-            allows you to experience your audio world on your terms. It lets you
-            enjoy your audio in peace, but quickly interact with your
-            surroundings when you need to. Combined with Bluetooth 5.0 compliant
-            connectivity and 17-hour battery life, the XX99 Mark I headphones
-            give you superior sound, cutting-edge technology, and a modern
-            design aesthetic.
-          </p>
-          <div class="quti-items">
+        <div class="features-box">
+          <div class="features">
+            <h2>Features</h2>
+            <p>
+              Featuring a genuine leather head strap and premium earcups, these
+              headphones deliver superior comfort for those who like to enjoy
+              endless listening. It includes intuitive controls designed for any
+              situation. Whether you're taking a business call or just in your
+              own personal space, the auto on/off and pause features ensure that
+              you'll never miss a beat.
+            </p>
+            <p>
+              The advanced Active Noise Cancellation with a built-in equalizer
+              allows you to experience your audio world on your terms. It lets
+              you enjoy your audio in peace, but quickly interact with your
+              surroundings when you need to. Combined with Bluetooth 5.0
+              compliant connectivity and 17-hour battery life, the XX99 Mark I
+              headphones give you superior sound, cutting-edge technology, and a
+              modern design aesthetic.
+            </p>
+          </div>
+          <div class="in-the-box">
             <h2>In the Box</h2>
             <ul>
               <li><span class="quantity">1x</span> Headphone Unit</li>
@@ -97,48 +98,103 @@
             </ul>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="site-footer__content">
-        <div class="site-footer__left">
-          <a class="site-footer__logo" href="index.html">
-            <img
-              src="images/logo.svg"
-              alt="Audiophile logo"
-              width="143"
-              height="25"
-            />
-          </a>
-          <p>
-            Audiophile is an all-in-one stop to fulfill your audio needs. We're
-            a small team of music lovers and sound specialists who are devoted
-            to helping you get the most out of personal audio. Come and visit
-            our demo facility - we're open 7 days a week.
-          </p>
-          <p class="site-footer__copyright">
-            Copyright 2021. All Rights Reserved
-          </p>
+      </div>
+      <div>
+        <div class="image-container">
+          <img
+            src="images/photos.png"
+            alt="Example Image"
+            width="800"
+            height="426"
+          />
         </div>
-        <div class="site-footer__right">
-          <nav class="site-footer__nav">
-            <a href="#">Home</a>
-            <a href="#">Headphones</a>
-            <a href="#">Speakers</a>
-            <a href="#">Earphones</a>
-          </nav>
+        <div class="photos777">
+          <h1>YOU MAY ALSO LIKE</h1>
+          <div class="product-grid">
+            <div class="photos-second">
+              <img src="images/Group-12xx99-mark-ii.png" alt="XX99 MARK II" />
+              <h3>XX99 MARK II</h3>
+              <button>SEE PRODUCT</button>
+            </div>
+            <div class="photos-second">
+              <img src="images/Group-12xx59.png" alt="XX59" />
+              <h3>XX59</h3>
+              <button>SEE PRODUCT</button>
+            </div>
+            <div class="photos-second">
+              <img src="images/Group-12zx9-speaker.png" alt="ZX9 SPEAKER" />
+              <h3>ZX9 SPEAKER</h3>
+              <button>SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
 
-          <div class="site-footer__social">
-            <a href="#">
-              <img src="images/icon-facebook.svg" alt="Facebook icon" />
+        <div class="bottom-section">
+          <div class="text-section">
+            <h2>BRINGING YOU THE <span>BEST</span> AUDIO GEAR</h2>
+            <p>
+              Located at the heart of New York City, Audiophile is the premier
+              store for high-end headphones, earphones, speakers, and audio
+              accessories. We have a large showroom and luxury demonstration
+              rooms available for you to browse and experience a wide range of
+              our products. Stop by our store to meet some of the fantastic
+              people who make Audiophile the best place to buy your portable
+              audio equipment.
+            </p>
+          </div>
+          <div class="image-section">
+            <img src="images/Bitmap.png" alt="Man with headphones" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="top">
+          <div class="footer__logo">
+            <a href="index.html">
+              <img
+                src="images/logo.svg"
+                alt="Audiophile logo"
+                width="143"
+                height="25"
+              />
             </a>
-            <a href="#">
-              <img src="images/icon-twitter.svg" alt="Twitter icon" />
-            </a>
-            <a href="#">
-              <img src="images/icon-instagram.svg" alt="Instagram icon" />
-            </a>
+          </div>
+
+          <nav class="footer__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#">Home</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Headphones</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Speakers</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Earphones</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="icon__text">
+          <div class="left">
+            <div class="text">
+              Audiophile is an all-in-one stop to fulfill your audio needs.
+              We're a small team of music lovers and sound specialists who are
+              devoted to helping you get the most out of personal audio. Come
+              and visit our demo facility - we're open 7 days a week.
+            </div>
+            <div class="cpy">Copyright 2021. All Rights Reserved</div>
+          </div>
+
+          <div class="social-icons">
+            <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+            <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+            <a href="#"><img src="images/icon-instagram.svg" alt=></a>
           </div>
         </div>
       </div>
